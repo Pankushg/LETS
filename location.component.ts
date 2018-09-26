@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Location} from '../location';
+import {LOCATIONS} from '../mock-locations';
 
 @Component({
   selector: 'app-location',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LocationComponent implements OnInit {
 
+  locations= LOCATIONS; 
+  
   constructor() { }
 
   ngOnInit() {
   }
-
+  
 }

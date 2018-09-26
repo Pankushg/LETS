@@ -1,19 +1,8 @@
-span
-{
-    font-family: 'Courier New', Courier, monospace;
-}
-div.row{
-    color:darkolivegreen;
-}
 
-div.col-lg-5{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center; 
-    margin-left: 20px;
-    font-size: 60px;
+div.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
 }
-div.col-lg-6{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: 60px;
+.carousel-inner{
+    height:500px;
 }

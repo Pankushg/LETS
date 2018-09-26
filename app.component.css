@@ -1,0 +1,9 @@
+div.col-lg-6, div.col-lg-5{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 60px;
+}
+
+nav.navbar{
+    font-size: 18px;
+}
